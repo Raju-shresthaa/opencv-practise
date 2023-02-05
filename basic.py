@@ -9,6 +9,7 @@ resize_img = cv.resize(img, (0, 0), fx=2, fy=2)
 cv.imshow("resize_image", resize_img)
 cv.imshow("Cat Output", img)
 cv.imwrite("rotated.jpg", rotate_img)
+# print(img.shape)
 cv.waitKey(0)
 cv.destroyAllWindows()
 
